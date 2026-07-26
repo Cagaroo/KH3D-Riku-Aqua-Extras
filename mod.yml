@@ -1,0 +1,54 @@
+---
+title: Riku - Aqua Extras
+originalAuthor: Cagaroo
+description: Aqua's Keyblades and related menu icons. Includes Master Defender (over Way to the Dawn), Brightcrest (over Ocean Rage), Royal Radiance (over Unbound). 
+assets:
+# Weapons
+  - name: chara\wep\w_ri14\mig\0\bin\w_ri140.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_wep\161-w_ri140.pmo
+  - name: chara\wep\w_ex14\mig\1\bin\w_ri141.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_wep\3-w_ri141.pmo
+  - name: chara\wep\w_ri05\mig\0\bin\w_ri050.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_wep\171-w_ri050.pmo
+  - name: chara\wep\w_ex05\mig\1\bin\w_ri051.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_wep\88-w_ri051.pmo
+  - name: chara\wep\w_ri10\mig\0\bin\w_ri100.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_wep\94-w_ri100.pmo
+  - name: chara\wep\w_ri10\mig\0\bin\w_ri111.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_wep\116-w_ri111.pmo
+  - name: remastered/item/jp/bin/it021f.ctt/it021f.dds
+    multi:
+      - name: remastered/item/jp/bin/it021ft.ctt/it021ft.dds
+    method: copy
+    source:
+      - name: remastered/item/it021f.dds
+  - name: remastered/item/jp/bin/it0213.ctt/it0213.dds
+    multi:
+      - name: remastered/item/jp/bin/it0213t.ctt/it0213t.dds
+    method: copy
+    source:
+      - name: remastered/item/it0213.dds
+  - name: remastered/item/jp/bin/it0213.ctt/it0213.dds
+    multi:
+      - name: remastered/item/jp/bin/it0213t.ctt/it0213t.dds
+    method: copy
+    source:
+      - name: remastered/item/it0213.dds
+  - name: remastered/item/jp/bin/it0219.ctt/it0219.dds
+    multi:
+      - name: remastered/item/jp/bin/it0219t.ctt/it0219t.dds
+    method: copy
+    source:
+      - name: remastered/item/it0219.dds
