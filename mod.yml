@@ -20,14 +20,16 @@ assets:
     method: copy
     source:
       - name: 3ds\chara_wep\88-w_ri051.pmo
-  - name: chara\wep\w_ri10\mig\0\bin\w_ri100.pmo
+  - name: chara\wep\w_ri10\mig\0\bin\w_ri110.pmo
     method: copy
     source:
-      - name: 3ds\chara_wep\94-w_ri100.pmo
+      - name: 3ds\chara_wep\94-w_ri110.pmo
   - name: chara\wep\w_ri10\mig\0\bin\w_ri111.pmo
     method: copy
     source:
-      - name: 3ds\chara_wep\116-w_ri111.pmo
+      - name: 3ds\chara_wep\172-w_ri111.pmo
+
+# Icons
   - name: remastered/item/jp/bin/it021f.ctt/it021f.dds
     multi:
       - name: remastered/item/jp/bin/it021ft.ctt/it021ft.dds
