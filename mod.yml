@@ -8,7 +8,7 @@ assets:
     method: copy
     source:
       - name: 3ds\chara_wep\161-w_ri140.pmo
-  - name: chara\wep\w_ex14\mig\1\bin\w_ri141.pmo
+  - name: chara\wep\w_ri14\mig\1\bin\w_ri141.pmo
     method: copy
     source:
       - name: 3ds\chara_wep\3-w_ri141.pmo
@@ -16,7 +16,7 @@ assets:
     method: copy
     source:
       - name: 3ds\chara_wep\171-w_ri050.pmo
-  - name: chara\wep\w_ex05\mig\1\bin\w_ri051.pmo
+  - name: chara\wep\w_ri05\mig\1\bin\w_ri051.pmo
     method: copy
     source:
       - name: 3ds\chara_wep\88-w_ri051.pmo
