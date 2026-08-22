@@ -48,9 +48,9 @@ assets:
     method: copy
     source:
       - name: remastered/item/it0213.dds
-  - name: remastered/item/jp/bin/it0219.ctt/it0219.dds
+  - name: remastered/item/jp/bin/it0209.ctt/it0209.dds
     multi:
-      - name: remastered/item/jp/bin/it0219t.ctt/it0219t.dds
+      - name: remastered/item/jp/bin/it0209t.ctt/it0209t.dds
     method: copy
     source:
-      - name: remastered/item/it0219.dds
+      - name: remastered/item/it0209.dds
