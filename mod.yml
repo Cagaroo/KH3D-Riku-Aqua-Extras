@@ -1,9 +1,33 @@
 ---
 title: Riku - Aqua Extras
 originalAuthor: Cagaroo
-description: Aqua's Keyblades and related menu icons. Includes Master Defender (over Way to the Dawn), Brightcrest (over Ocean Rage), Royal Radiance (over Unbound). 
+description: Aqua's Keyblades, accessories, and related menu icons. Includes Master Defender (over Way to the Dawn), Brightcrest (over Ocean Rage), Royal Radiance (over Unbound). 
 assets:
-# Weapons
+## Accessories
+# Crown
+  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.pmo\h_ex020_00.dds
+    multi:
+      - name: remastered\chara\pc\p_tl07\mig\0\bin\p_tl070.pmo\h_tl070_01.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex020\tiara.dds
+      #- name: remastered\chara_pc\p_ex020\royal.dds
+      #- name: remastered\chara_pc\p_ex020\venus.dds
+
+# Wings
+  - name: chara\f_obj\f_ex01\mig\0\bin\f_ex010.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_f_obj\375-f_ex010.pmo
+  - name: remastered\chara\f_obj\f_ex01\mig\0\bin\f_ex010.pmo\f_ex010_00.dds
+    method: copy
+    source:
+      - name: remastered\chara_f_obj\f_ex010\iron.dds
+      #- name: remastered\chara_f_obj\f_ex010\astral.dds
+      #- name: remastered\chara_f_obj\f_ex010\radiant.dds
+
+## Weapons
+# Master's Defender
   - name: chara\wep\w_ri14\mig\0\bin\w_ri140.pmo
     method: copy
     source:
@@ -12,6 +36,24 @@ assets:
     method: copy
     source:
       - name: 3ds\chara_wep\3-w_ri141.pmo
+  - name: remastered\chara\wep\w_ri14\mig\0\bin\w_ri140.pmo\w_ri140_00.dds
+    multi:
+      - name: remastered\chara\wep\w_ri14\mig\1\bin\w_ri141.pmo\w_ri141_00.dds
+    method: copy
+    source:
+      - name: remastered\chara_wep\w_ri140\w_ri140_00.dds
+  - name: remastered\chara\wep\w_ri14\mig\0\bin\w_ri140.pmo\w_ri140_01.dds
+    multi:
+      - name: remastered\chara\wep\w_ri14\mig\1\bin\w_ri141.pmo\w_ri141_01.dds
+    method: copy
+    source:
+      - name: remastered\chara_wep\w_ri140\w_ri140_01.dds
+  - name: remastered\effect\wep\ex\bin\w_140_ri.fep\-0.dds
+    method: copy
+    source:
+      - name: remastered\effect\w_140_ri\JP_w19aq00_arc1.dds
+      
+# Brightcrest
   - name: chara\wep\w_ri05\mig\0\bin\w_ri050.pmo
     method: copy
     source:
@@ -20,6 +62,20 @@ assets:
     method: copy
     source:
       - name: 3ds\chara_wep\88-w_ri051.pmo
+  - name: remastered\chara\wep\w_ri05\mig\0\bin\w_ri050.pmo\w_ri050_00.dds
+    multi:
+      - name: remastered\chara\wep\w_ri05\mig\1\bin\w_ri051.pmo\w_ri051_00.dds
+    method: copy
+    source:
+      - name: remastered\chara_wep\w_ri050\w_ri050_00.dds
+  - name: remastered\chara\wep\w_ri05\mig\0\bin\w_ri050.pmo\w_ri050_01.dds
+    multi:
+      - name: remastered\chara\wep\w_ri05\mig\1\bin\w_ri051.pmo\w_ri051_01.dds
+    method: copy
+    source:
+      - name: remastered\chara_wep\w_ri050\w_ri050_01.dds
+      
+# Royal Radiance
   - name: chara\wep\w_ri11\mig\0\bin\w_ri110.pmo
     method: copy
     source:
@@ -28,8 +84,20 @@ assets:
     method: copy
     source:
       - name: 3ds\chara_wep\172-w_ri111.pmo
+  - name: remastered\chara\wep\w_ri11\mig\0\bin\w_ri110.pmo\w_ri110_00.dds
+    multi:
+      - name: remastered\chara\wep\w_ri11\mig\1\bin\w_ri111.pmo\w_ri111_00.dds
+    method: copy
+    source:
+      - name: remastered\chara_wep\w_ri110\w_ri110_00.dds
+  - name: remastered\chara\wep\w_ri11\mig\0\bin\w_ri110.pmo\w_ri110_01.dds
+    multi:
+      - name: remastered\chara\wep\w_ri11\mig\1\bin\w_ri111.pmo\w_so111_01.dds
+    method: copy
+    source:
+      - name: remastered\chara_wep\w_ri110\w_ri110_01.dds
 
-# Icons
+## Icons
   - name: remastered/item/jp/bin/it021f.ctt/it021f.dds
     multi:
       - name: remastered/item/jp/bin/it021ft.ctt/it021ft.dds
