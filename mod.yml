@@ -84,18 +84,18 @@ assets:
     method: copy
     source:
       - name: 3ds\chara_wep\172-w_ri111.pmo
-  - name: remastered\chara\wep\w_ri11\mig\0\bin\w_ri110.pmo\w_ri110_00.dds
+  - name: remastered\chara\wep\w_ri11\mig\0\bin\w_ri110.pmo\w_so110_00.dds
     multi:
-      - name: remastered\chara\wep\w_ri11\mig\1\bin\w_ri111.pmo\w_ri111_00.dds
+      - name: remastered\chara\wep\w_ri11\mig\1\bin\w_ri111.pmo\w_so111_00.dds
     method: copy
     source:
       - name: remastered\chara_wep\w_ri110\w_ri110_00.dds
-  - name: remastered\chara\wep\w_ri11\mig\0\bin\w_ri110.pmo\w_ri110_01.dds
+  - name: remastered\chara\wep\w_ri11\mig\0\bin\w_ri110.pmo\w_so110_01.dds
     multi:
       - name: remastered\chara\wep\w_ri11\mig\1\bin\w_ri111.pmo\w_so111_01.dds
     method: copy
     source:
-      - name: remastered\chara_wep\w_ri110\w_ri110_01.dds
+      - name: remastered\chara_wep\w_ri110\w_ri110_01.png
 
 ## Icons
   - name: remastered/item/jp/bin/it021f.ctt/it021f.dds
