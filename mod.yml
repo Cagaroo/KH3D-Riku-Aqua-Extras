@@ -10,7 +10,8 @@ assets:
       - name: remastered\chara\pc\p_tl07\mig\0\bin\p_tl070.pmo\h_tl070_01.dds
     method: copy
     source:
-      - name: remastered\chara_pc\p_ex020\tiara.dds
+      - name: remastered\chara_pc\p_ex020\none.dds
+      #- name: remastered\chara_pc\p_ex020\tiara.dds
       #- name: remastered\chara_pc\p_ex020\royal.dds
       #- name: remastered\chara_pc\p_ex020\venus.dds
 
@@ -22,7 +23,8 @@ assets:
   - name: remastered\chara\f_obj\f_ex01\mig\0\bin\f_ex010.pmo\f_ex010_00.dds
     method: copy
     source:
-      - name: remastered\chara_f_obj\f_ex010\iron.dds
+      - name: remastered\chara_f_obj\f_ex010\none.dds
+      #- name: remastered\chara_f_obj\f_ex010\iron.dds
       #- name: remastered\chara_f_obj\f_ex010\astral.dds
       #- name: remastered\chara_f_obj\f_ex010\radiant.dds
 
