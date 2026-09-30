@@ -1,10 +1,8 @@
 {
   "Name": "Riku - Aqua Extras",
-  "Description": "",
+  "Description": "Aqua's Keyblades and related menu icons. Includes Master Defender (over Way to the Dawn), Brightcrest (over Ocean Rage), Royal Radiance (over Unbound). ",
   "Authors": "Cagaroo",
-  "Link": "",
-  "ID": "riku-aqua-extras",
-  "IsChecked": false,
-  "LinkImage": null,
-  "ArchiveImage": false
+  "Link": "https://gamebanana.com/members/5286717",
+  "Prefix": "3ds",
+  "Color": "#003262"
 }
